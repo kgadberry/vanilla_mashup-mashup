@@ -1,0 +1,132 @@
+Vanilla Mashup Mashup
+=====================
+
+This pack contains no original artwork. It is a merge of the resource packs
+listed below, all rights remain with their respective authors. Please support
+them on Modrinth.
+
+Listed in merge order (later packs override earlier ones).
+
+
+SPBR
+  by NyaShulker  -  GPL-3.0-or-later
+  https://modrinth.com/resourcepack/spbr
+
+SPBR-GlowingOre
+  by NyaShulker  -  GPL-3.0-only
+  https://modrinth.com/resourcepack/spbr-glowingore
+
+SPBR-GrassParallax
+  by NyaShulker  -  GPL-3.0-only
+  https://modrinth.com/resourcepack/spbr-grassparallax
+
+Vanilla Mashup (PBR)
+  by pedrowav  -  All Rights Reserved
+  https://modrinth.com/resourcepack/vanilla-mashup-pbr
+
+Florescent
+  by FullscaleFishtail  -  CC BY-NC-SA 4.0
+  https://modrinth.com/resourcepack/florescent
+
+Grass Clovers
+  by spiderbat  -  All Rights Reserved
+  https://modrinth.com/resourcepack/grass-clovers
+
+Motschen's Better Leaves
+  by Motschen  -  MIT
+  https://modrinth.com/resourcepack/better-leaves
+
+Bushy pink petals, wildflowers & leaf litter
+  by Infernalizard and godhusk  .  Apache 2.0
+  https://modrinth.com/resourcepack/bushy-pinkpetals-wildflowers-leaflitter
+
+Sky's Better Carpets
+  by skykittenpuppy  -  MIT
+  https://modrinth.com/resourcepack/skys-better-carpets
+
+(Bee's) Fluffy Carpets and Wool
+  by bebebea_loste  -  All Rights Reserved
+  https://modrinth.com/resourcepack/fluffy-carpets
+
+Cubic Sun & Moon
+  by JoeFly  -  All Rights Reserved
+  https://modrinth.com/resourcepack/cubic-sun-moon
+
+(Bee's) Blockier Goat Horn
+  by bebebea_loste  -  All Rights Reserved
+  https://modrinth.com/resourcepack/blockier-goat-horn
+
+Unique Goat Horns
+  by Cubeoidal  -  CC BY-NC-SA 4.0
+  https://modrinth.com/resourcepack/unique-goat-horns
+
+3D Mace Wind Burst Effect
+  by caiosx22  -  All Rights Reserved
+  https://modrinth.com/resourcepack/3d-mace-wind-burst-effect
+
+Realistic Rain
+  by FireController1847  -  All Rights Reserved
+  https://modrinth.com/resourcepack/realistic-rain
+
+Bray's Better Bow & Arrows
+  by Braytonks  -  All Rights Reserved
+  https://modrinth.com/resourcepack/brays-better-3d-bow
+
+Bray's Zombie Overhaul x Fresh Animations
+  by Braytonks  -  All Rights Reserved
+  https://modrinth.com/resourcepack/brays-zombie-overhaul-fresh-animations
+
+Vocal Villagers
+  by Owehttamy  -  CC BY-NC-SA 4.0
+  https://modrinth.com/resourcepack/vvi
+
+Even Better Enchants
+  by mythitorium  -  Apache-2.0
+  https://modrinth.com/resourcepack/even-better-enchants
+
+Better icons!  (AppleSkin version)
+  by rkrr_  -  All Rights Reserved
+  https://modrinth.com/resourcepack/better-icons
+
+(Bee's) Banner Pattern Clarity
+  by bebebea_loste  -  All Rights Reserved
+  https://modrinth.com/resourcepack/banner-pattern-clarity
+
+Animated Items
+  by palettemc  -  CC BY-NC 4.0
+  https://modrinth.com/resourcepack/animated-items
+
+Torches Reimagined
+  by Reijvi  -  All Rights Reserved
+  https://modrinth.com/resourcepack/torches-reimagined
+
+Compact Font
+  by Kaiji-Kun  -  All Rights Reserved
+  https://modrinth.com/resourcepack/compact-font
+
+Block Overlays
+  by Kai1907  -  MIT
+  https://modrinth.com/resourcepack/block-overlays
+
+ZZZ Fissure Sounds
+  by AttackerMR  -  All Rights Reserved
+  https://modrinth.com/resourcepack/zzz-fissure-sounds
+
+Colourful Wolf Armour
+  by SirJumpy8772  -  LGPL-3.0-only
+  https://modrinth.com/resourcepack/colourful-wolf-armour
+
+
+Upstream credits carried over from SPBR
+---------------------------------------
+
+SPBR is based on Vanilla Normals Renewed by Poudingue
+  https://github.com/Poudingue/Vanilla-Normals-Renewed
+SPBR itself: https://github.com/ShulkerSakura/SPBR
+3D models (piston arm, lantern, chain) from 3D Default by GeforceLegend
+Special thanks: Poudingue, GeforceLegend, Tahnass, NotCazes_, Fogg05, OrzMiku,
+Lain, Yark, G2F1SH, FuturalCG, Rumiya_coalball, IMS
+
+Vanilla Mashup (PBR) draws on Stay True, Reimagined, Fancy Crops, Fresh
+Textures, Detail Brush, MistaThings, Vanilla Tweaks, Fire Rekindled, and a
+pack icon by SkulkingShadow.

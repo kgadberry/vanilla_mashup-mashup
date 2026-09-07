@@ -1,0 +1,37 @@
+{
+    "sources": {
+        "SPBR-21.zip": ["assets"],
+        "SPBR-GlowingOre.zip": ["assets/minecraft/textures/block"],
+        "SPBR-GrassParallax.zip": ["assets/minecraft/textures/block"],
+        "Vanilla Mashup 1.5.zip": ["assets/minecraft/optifine/ctm/_overlays"],
+        "Florescent.zip": ["assets/minecraft"],
+        "Grass Clovers.zip": ["assets/minecraft"],
+        "Better-Leaves-9.5.zip": ["*", "!LICENSE", "!pack.mcmeta", "!pack.png", "!README.md"],
+        "Bushy pink petals, wildflowers  leaf litter.zip": ["assets/minecraft"],
+        "Sky's Better Carpets.zip": ["assets/minecraft/models/block", "!assets/minecraft/models/block/carpet.json"],
+        "Fluffy Carpets v1.1.zip": ["assets/minecraft/models/block", "assets/fluffy_carpets"],
+        "cubic-sun-moon-v1.8.5.zip": ["assets/minecraft"],
+        "Blockier Goat Horn v1.2.zip": ["assets/minecraft"],
+        "Unique Goat Horns.zip": ["assets/minecraft/textures/item/variated/goat_horns"],
+        "3D Mace Wind Burst Effect.zip": ["assets/minecraft"],
+        "Realistic Rain v1.1.0.zip": ["assets/minecraft"],
+        "§6Bray's Bow & Arrows v1.2.3.zip": ["assets/minecraft", "assets/real_arrow_tip"],
+        "§9Bray's Zombie Overhaul FA v1.4.zip": ["assets/minecraft"],
+        "§a§lVocal Villagers §r§71.4.zip": ["assets/minecraft", "assets/vocal_villagers"],
+        "EvenBetterEnchants_v3_1.21.5+.zip": ["assets/minecraft"],
+        "Better Icons! + appleskin.zip": ["assets/minecraft", "assets/appleskin"],
+        "Banner Pattern Clarity v1.6.zip": ["*", "!pack.mcmeta", "!pack.png", "!pack-old.png"],
+        "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip": ["assets"],
+        "§eTorches§8-§eReimagined§0_§8[v1.8]§0.zip": ["assets/minecraft"],
+        "Compact Font.zip": ["assets/minecraft/textures/font"],
+        "Overlays V88 MC26.2.zip": ["assets/minecraft/optifine/ctm/_overlays"],
+        "ZZZ Fissure Sounds.zip": ["assets/minecraft/sounds/portal"],
+        "Colourful Wolf Armour V2.1.zip": ["assets/minecraft/textures"]
+
+    },
+    "extra_files": [
+        "./pack.mcmeta",
+        "./pack.png",
+        "./credits.txt"
+    ]
+}

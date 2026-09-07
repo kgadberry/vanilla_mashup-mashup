@@ -1,0 +1,10 @@
+# Upstream resource packs. Disposable — `fetch.py sync` (or `build.py`)
+# rebuilds packs/ from upstream.lock.json, which is the tracked source of truth.
+/packs/
+
+# Merged pack that build.py writes to the repo root.
+/*.zip
+
+# Python
+__pycache__/
+*.pyc
