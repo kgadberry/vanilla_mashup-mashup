@@ -14,21 +14,333 @@
         "Blockier Goat Horn v1.2.zip": ["assets/minecraft"],
         "Unique Goat Horns.zip": ["assets/minecraft/textures/item/variated/goat_horns"],
         "3D Mace Wind Burst Effect.zip": ["assets/minecraft"],
-        "Realistic Rain v1.1.0.zip": ["assets/minecraft"],
+        "Realistic Rain v1.1.0.zip": ["assets/minecraft", "!**/.DS_Store"],
         "§6Bray's Bow & Arrows v1.2.3.zip": ["assets/minecraft", "assets/real_arrow_tip"],
         "§9Bray's Zombie Overhaul FA v1.4.zip": ["assets/minecraft"],
         "§a§lVocal Villagers §r§71.4.zip": ["assets/minecraft", "assets/vocal_villagers"],
         "EvenBetterEnchants_v3_1.21.5+.zip": ["assets/minecraft"],
         "Better Icons! + appleskin.zip": ["assets/minecraft", "assets/appleskin"],
         "Banner Pattern Clarity v1.6.zip": ["*", "!pack.mcmeta", "!pack.png", "!pack-old.png"],
-        "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip": ["assets"],
+        "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip": ["assets", "!**/.DS_Store"],
         "§eTorches§8-§eReimagined§0_§8[v1.8]§0.zip": ["assets/minecraft"],
         "Compact Font.zip": ["assets/minecraft/textures/font"],
-        "Overlays V88 MC26.2.zip": ["assets/minecraft/optifine/ctm/_overlays"],
+        "Overlays V88 MC26.2.zip": [
+            "assets/minecraft/optifine/ctm/_overlays",
+            "!assets/minecraft/optifine/ctm/_overlays/Auswahl kopieren TUT.txt",
+            "!assets/minecraft/optifine/ctm/_overlays/Hierarchie - 1.16.txt",
+            "!assets/minecraft/optifine/ctm/_overlays/Hierarchie - 1.17.txt",
+            "!assets/minecraft/optifine/ctm/_overlays/Hierarchie - 1.19.txt",
+            "!assets/minecraft/optifine/ctm/_overlays/Hierarchie - 1.20.txt",
+            "!assets/minecraft/optifine/ctm/_overlays/Hierarchie - 1.21.4.txt",
+            "!assets/minecraft/optifine/ctm/_overlays/Hierarchie - 1.21.txt",
+            "!assets/minecraft/optifine/ctm/_overlays/Hierarchie - 26.2.txt",
+            "!assets/minecraft/optifine/ctm/_overlays/Hierarchie.txt",
+            "!assets/minecraft/optifine/ctm/_overlays/Neue.txt",
+            "!assets/minecraft/optifine/ctm/_overlays/ToDo.txt"
+        ],
         "ZZZ Fissure Sounds.zip": ["assets/minecraft/sounds/portal"],
         "Colourful Wolf Armour V2.1.zip": ["assets/minecraft/textures"]
 
     },
+    "transforms": [
+        {
+            "source": "cubic-sun-moon-v1.8.5.zip",
+            "path": "assets/minecraft/textures/environment/celestial/sun.png",
+            "resize": [512, 512]
+        },
+        {
+            "source": "cubic-sun-moon-v1.8.5.zip",
+            "path": "assets/minecraft/textures/environment/celestial/moon/first_quarter.png",
+            "resize": [512, 512]
+        },
+        {
+            "source": "cubic-sun-moon-v1.8.5.zip",
+            "path": "assets/minecraft/textures/environment/celestial/moon/full_moon.png",
+            "resize": [512, 512]
+        },
+        {
+            "source": "cubic-sun-moon-v1.8.5.zip",
+            "path": "assets/minecraft/textures/environment/celestial/moon/new_moon.png",
+            "resize": [512, 512]
+        },
+        {
+            "source": "cubic-sun-moon-v1.8.5.zip",
+            "path": "assets/minecraft/textures/environment/celestial/moon/third_quarter.png",
+            "resize": [512, 512]
+        },
+        {
+            "source": "cubic-sun-moon-v1.8.5.zip",
+            "path": "assets/minecraft/textures/environment/celestial/moon/waning_crescent.png",
+            "resize": [512, 512]
+        },
+        {
+            "source": "cubic-sun-moon-v1.8.5.zip",
+            "path": "assets/minecraft/textures/environment/celestial/moon/waning_gibbous.png",
+            "resize": [512, 512]
+        },
+        {
+            "source": "cubic-sun-moon-v1.8.5.zip",
+            "path": "assets/minecraft/textures/environment/celestial/moon/waxing_crescent.png",
+            "resize": [512, 512]
+        },
+        {
+            "source": "cubic-sun-moon-v1.8.5.zip",
+            "path": "assets/minecraft/textures/environment/celestial/moon/waxing_gibbous.png",
+            "resize": [512, 512]
+        },
+        {
+            "source": "SPBR-21.zip",
+            "path": "assets/minecraft/textures/entity/sulfur_cube/sulfur_cube_inner _n.png",
+            "rename": "assets/minecraft/textures/entity/sulfur_cube/sulfur_cube_inner_n.png"
+        },
+        {
+            "source": "SPBR-21.zip",
+            "path": "assets/minecraft/textures/entity/sulfur_cube/sulfur_cube_inner _s.png",
+            "rename": "assets/minecraft/textures/entity/sulfur_cube/sulfur_cube_inner_s.png"
+        },
+        {
+            "source": "Vanilla Mashup 1.5.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/sand/sand.properties",
+            "patch": [
+                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
+                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
+                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
+                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
+                {"find": "\\bnetherrack_gold_ore\\b", "replace": ""},
+                {"find": "\\binfested_stonebrick\\b", "replace": ""},
+                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
+                {"find": "\\bhardened_clay\\b", "replace": ""},
+                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
+                {"find": "\\bfarmland_moist\\b", "replace": ""},
+                {"find": "\\bplanks\\b", "replace": ""},
+                {"find": "tintIndex=sand", "replace": "tintIndex=0"}
+            ]
+        },
+        {
+            "source": "Vanilla Mashup 1.5.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/red_sand/red_sand.properties",
+            "patch": [
+                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
+                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
+                {"find": "\\bchiseled_sanstone\\b", "replace": "chiseled_sandstone"},
+                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
+                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
+                {"find": "\\bnetherrack_gold_ore\\b", "replace": ""},
+                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
+                {"find": "\\bhardened_clay\\b", "replace": ""},
+                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
+                {"find": "\\bfarmland_moist\\b", "replace": ""},
+                {"find": "\\bplanks\\b", "replace": ""},
+                {"find": "tintIndex=sand", "replace": "tintIndex=0"}
+            ]
+        },
+        {
+            "source": "Vanilla Mashup 1.5.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/dirt/dirt.properties",
+            "patch": [
+                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
+                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
+                {"find": "\\bpumking\\b", "replace": "pumpkin"},
+                {"find": "jack_o'lantern", "replace": "jack_o_lantern"},
+                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
+                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
+                {"find": "\\bnetherrack_gold_ore\\b", "replace": ""},
+                {"find": "\\binfested_stonebrick\\b", "replace": ""},
+                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
+                {"find": "\\bhardened_clay\\b", "replace": ""},
+                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
+                {"find": "\\bplanks\\b", "replace": ""}
+            ]
+        },
+        {
+            "source": "Vanilla Mashup 1.5.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/coarse_dirt/coarse_dirt.properties",
+            "patch": [
+                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
+                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
+                {"find": "\\bpumking\\b", "replace": "pumpkin"},
+                {"find": "jack_o'lantern", "replace": "jack_o_lantern"},
+                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
+                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
+                {"find": "\\bnetherrack_gold_ore\\b", "replace": ""},
+                {"find": "\\binfested_stonebrick\\b", "replace": ""},
+                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
+                {"find": "\\bhardened_clay\\b", "replace": ""},
+                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
+                {"find": "\\bplanks\\b", "replace": ""}
+            ]
+        },
+        {
+            "source": "Vanilla Mashup 1.5.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/gravel/gravel.properties",
+            "patch": [
+                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
+                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
+                {"find": "\\bchiseled_sanstone\\b", "replace": "chiseled_sandstone"},
+                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
+                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
+                {"find": "\\binfested_stonebrick\\b", "replace": ""},
+                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
+                {"find": "\\bhardened_clay\\b", "replace": ""},
+                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
+                {"find": "\\bfarmland_moist\\b", "replace": ""},
+                {"find": "\\bplanks\\b", "replace": ""},
+                {"find": "tintIndex=stone", "replace": "tintIndex=0"}
+            ]
+        },
+        {
+            "source": "Vanilla Mashup 1.5.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/moss_block/moss_block.properties",
+            "patch": [
+                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
+                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
+                {"find": "\\bchiseled_sanstone\\b", "replace": "chiseled_sandstone"},
+                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
+                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
+                {"find": "\\binfested_stonebrick\\b", "replace": ""},
+                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
+                {"find": "\\bhardened_clay\\b", "replace": ""},
+                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
+                {"find": "\\bplanks\\b", "replace": ""},
+                {"find": "tintBlock=mossy_block", "replace": "tintBlock=moss_block"}
+            ]
+        },
+        {
+            "source": "Vanilla Mashup 1.5.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/grass_block/grass_block.properties",
+            "patch": [
+                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
+                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
+                {"find": "\\bchiseled_sanstone\\b", "replace": "chiseled_sandstone"},
+                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
+                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
+                {"find": "\\binfested_stonebrick\\b", "replace": ""},
+                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
+                {"find": "\\bhardened_clay\\b", "replace": ""},
+                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
+                {"find": "\\bplanks\\b", "replace": ""}
+            ]
+        },
+        {
+            "source": "Vanilla Mashup 1.5.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/suspicious_sand/suspicious_sand.properties",
+            "patch": [
+                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
+                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
+                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
+                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
+                {"find": "\\bnetherrack_gold_ore\\b", "replace": ""},
+                {"find": "\\binfested_stonebrick\\b", "replace": ""},
+                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
+                {"find": "\\bhardened_clay\\b", "replace": ""},
+                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
+                {"find": "\\bfarmland_moist\\b", "replace": ""},
+                {"find": "\\bplanks\\b", "replace": ""},
+                {"find": "tintIndex=suspicious_sand", "replace": "tintIndex=0"}
+            ]
+        },
+        {
+            "source": "§a§lVocal Villagers §r§71.4.zip",
+            "path": "assets/minecraft/sounds.json",
+            "patch": [
+                {"find": "\"entity\\.villager\\.death\":\\s*\\{[^}]*\\},?\\s*", "replace": ""},
+                {"find": "\"entity\\.villager\\.no\":\\s*\\{[^}]*\\},?\\s*", "replace": ""}
+            ]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/copper_sword.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/golden_sword_e.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/iron_sword.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/diamond_sword.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/iron_sword_e.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/copper_sword_e.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/diamond_sword_e.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/golden_sword.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/thirdperson/enchanted_iron_sword.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/thirdperson/enchanted_golden_sword.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/thirdperson/enchanted_diamond_sword.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/iron/sword.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/copper/e_copper_sword.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/golden/sword.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip",
+            "path": "assets/minecraft/textures/item/diamond/sword.png.mcmeta",
+            "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
+        },
+        {
+            "source": "Vanilla Mashup 1.5.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/suspicious_gravel/suspicious_gravel.properties",
+            "patch": [
+                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
+                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
+                {"find": "\\bchiseled_sanstone\\b", "replace": "chiseled_sandstone"},
+                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
+                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
+                {"find": "\\binfested_stonebrick\\b", "replace": ""},
+                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
+                {"find": "\\bhardened_clay\\b", "replace": ""},
+                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
+                {"find": "\\bfarmland_moist\\b", "replace": ""},
+                {"find": "\\bplanks\\b", "replace": ""},
+                {"find": "tintIndex=stone", "replace": "tintIndex=0"}
+            ]
+        }
+    ],
     "extra_files": [
         "./pack.mcmeta",
         "./pack.png",
