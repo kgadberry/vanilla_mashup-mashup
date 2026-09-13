@@ -20,10 +20,6 @@ SPBR-GrassParallax
   by NyaShulker  -  GPL-3.0-only
   https://modrinth.com/resourcepack/spbr-grassparallax
 
-Vanilla Mashup (PBR)
-  by pedrowav  -  All Rights Reserved
-  https://modrinth.com/resourcepack/vanilla-mashup-pbr
-
 Florescent
   by FullscaleFishtail  -  CC BY-NC-SA 4.0
   https://modrinth.com/resourcepack/florescent
@@ -126,7 +122,3 @@ SPBR itself: https://github.com/ShulkerSakura/SPBR
 3D models (piston arm, lantern, chain) from 3D Default by GeforceLegend
 Special thanks: Poudingue, GeforceLegend, Tahnass, NotCazes_, Fogg05, OrzMiku,
 Lain, Yark, G2F1SH, FuturalCG, Rumiya_coalball, IMS
-
-Vanilla Mashup (PBR) draws on Stay True, Reimagined, Fancy Crops, Fresh
-Textures, Detail Brush, MistaThings, Vanilla Tweaks, Fire Rekindled, and a
-pack icon by SkulkingShadow.

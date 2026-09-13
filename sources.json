@@ -3,7 +3,6 @@
         "SPBR-21.zip": ["assets"],
         "SPBR-GlowingOre.zip": ["assets/minecraft/textures/block"],
         "SPBR-GrassParallax.zip": ["assets/minecraft/textures/block"],
-        "Vanilla Mashup 1.5.zip": ["assets/minecraft/optifine/ctm/_overlays"],
         "Florescent.zip": ["assets/minecraft"],
         "Grass Clovers.zip": ["assets/minecraft"],
         "Better-Leaves-9.5.zip": ["*", "!LICENSE", "!pack.mcmeta", "!pack.png", "!README.md"],
@@ -99,147 +98,6 @@
             "rename": "assets/minecraft/textures/entity/sulfur_cube/sulfur_cube_inner_s.png"
         },
         {
-            "source": "Vanilla Mashup 1.5.zip",
-            "path": "assets/minecraft/optifine/ctm/_overlays/sand/sand.properties",
-            "patch": [
-                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
-                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
-                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
-                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
-                {"find": "\\bnetherrack_gold_ore\\b", "replace": ""},
-                {"find": "\\binfested_stonebrick\\b", "replace": ""},
-                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
-                {"find": "\\bhardened_clay\\b", "replace": ""},
-                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
-                {"find": "\\bfarmland_moist\\b", "replace": ""},
-                {"find": "\\bplanks\\b", "replace": ""},
-                {"find": "tintIndex=sand", "replace": "tintIndex=0"}
-            ]
-        },
-        {
-            "source": "Vanilla Mashup 1.5.zip",
-            "path": "assets/minecraft/optifine/ctm/_overlays/red_sand/red_sand.properties",
-            "patch": [
-                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
-                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
-                {"find": "\\bchiseled_sanstone\\b", "replace": "chiseled_sandstone"},
-                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
-                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
-                {"find": "\\bnetherrack_gold_ore\\b", "replace": ""},
-                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
-                {"find": "\\bhardened_clay\\b", "replace": ""},
-                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
-                {"find": "\\bfarmland_moist\\b", "replace": ""},
-                {"find": "\\bplanks\\b", "replace": ""},
-                {"find": "tintIndex=sand", "replace": "tintIndex=0"}
-            ]
-        },
-        {
-            "source": "Vanilla Mashup 1.5.zip",
-            "path": "assets/minecraft/optifine/ctm/_overlays/dirt/dirt.properties",
-            "patch": [
-                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
-                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
-                {"find": "\\bpumking\\b", "replace": "pumpkin"},
-                {"find": "jack_o'lantern", "replace": "jack_o_lantern"},
-                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
-                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
-                {"find": "\\bnetherrack_gold_ore\\b", "replace": ""},
-                {"find": "\\binfested_stonebrick\\b", "replace": ""},
-                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
-                {"find": "\\bhardened_clay\\b", "replace": ""},
-                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
-                {"find": "\\bplanks\\b", "replace": ""}
-            ]
-        },
-        {
-            "source": "Vanilla Mashup 1.5.zip",
-            "path": "assets/minecraft/optifine/ctm/_overlays/coarse_dirt/coarse_dirt.properties",
-            "patch": [
-                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
-                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
-                {"find": "\\bpumking\\b", "replace": "pumpkin"},
-                {"find": "jack_o'lantern", "replace": "jack_o_lantern"},
-                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
-                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
-                {"find": "\\bnetherrack_gold_ore\\b", "replace": ""},
-                {"find": "\\binfested_stonebrick\\b", "replace": ""},
-                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
-                {"find": "\\bhardened_clay\\b", "replace": ""},
-                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
-                {"find": "\\bplanks\\b", "replace": ""}
-            ]
-        },
-        {
-            "source": "Vanilla Mashup 1.5.zip",
-            "path": "assets/minecraft/optifine/ctm/_overlays/gravel/gravel.properties",
-            "patch": [
-                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
-                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
-                {"find": "\\bchiseled_sanstone\\b", "replace": "chiseled_sandstone"},
-                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
-                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
-                {"find": "\\binfested_stonebrick\\b", "replace": ""},
-                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
-                {"find": "\\bhardened_clay\\b", "replace": ""},
-                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
-                {"find": "\\bfarmland_moist\\b", "replace": ""},
-                {"find": "\\bplanks\\b", "replace": ""},
-                {"find": "tintIndex=stone", "replace": "tintIndex=0"}
-            ]
-        },
-        {
-            "source": "Vanilla Mashup 1.5.zip",
-            "path": "assets/minecraft/optifine/ctm/_overlays/moss_block/moss_block.properties",
-            "patch": [
-                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
-                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
-                {"find": "\\bchiseled_sanstone\\b", "replace": "chiseled_sandstone"},
-                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
-                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
-                {"find": "\\binfested_stonebrick\\b", "replace": ""},
-                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
-                {"find": "\\bhardened_clay\\b", "replace": ""},
-                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
-                {"find": "\\bplanks\\b", "replace": ""},
-                {"find": "tintBlock=mossy_block", "replace": "tintBlock=moss_block"}
-            ]
-        },
-        {
-            "source": "Vanilla Mashup 1.5.zip",
-            "path": "assets/minecraft/optifine/ctm/_overlays/grass_block/grass_block.properties",
-            "patch": [
-                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
-                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
-                {"find": "\\bchiseled_sanstone\\b", "replace": "chiseled_sandstone"},
-                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
-                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
-                {"find": "\\binfested_stonebrick\\b", "replace": ""},
-                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
-                {"find": "\\bhardened_clay\\b", "replace": ""},
-                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
-                {"find": "\\bplanks\\b", "replace": ""}
-            ]
-        },
-        {
-            "source": "Vanilla Mashup 1.5.zip",
-            "path": "assets/minecraft/optifine/ctm/_overlays/suspicious_sand/suspicious_sand.properties",
-            "patch": [
-                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
-                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
-                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
-                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
-                {"find": "\\bnetherrack_gold_ore\\b", "replace": ""},
-                {"find": "\\binfested_stonebrick\\b", "replace": ""},
-                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
-                {"find": "\\bhardened_clay\\b", "replace": ""},
-                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
-                {"find": "\\bfarmland_moist\\b", "replace": ""},
-                {"find": "\\bplanks\\b", "replace": ""},
-                {"find": "tintIndex=suspicious_sand", "replace": "tintIndex=0"}
-            ]
-        },
-        {
             "source": "§a§lVocal Villagers §r§71.4.zip",
             "path": "assets/minecraft/sounds.json",
             "patch": [
@@ -323,21 +181,336 @@
             "patch": [{"find": ", 10(?:, \\d+)*\\]", "replace": ", 10]"}]
         },
         {
-            "source": "Vanilla Mashup 1.5.zip",
-            "path": "assets/minecraft/optifine/ctm/_overlays/suspicious_gravel/suspicious_gravel.properties",
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/40clay/clay.properties",
             "patch": [
-                {"find": "\\bbed_rock\\b", "replace": "bedrock"},
-                {"find": "\\bbone_blok\\b", "replace": "bone_block"},
-                {"find": "\\bchiseled_sanstone\\b", "replace": "chiseled_sandstone"},
-                {"find": "\\bsilver_glazed_terracotta\\b", "replace": "light_gray_glazed_terracotta"},
-                {"find": "\\bblack_terracottaterracotta\\b", "replace": ""},
-                {"find": "\\binfested_stonebrick\\b", "replace": ""},
-                {"find": "\\binfested_cracked_stone_brick\\b", "replace": ""},
-                {"find": "\\bhardened_clay\\b", "replace": ""},
-                {"find": "\\bstained_hardened_clay\\b", "replace": ""},
-                {"find": "\\bfarmland_moist\\b", "replace": ""},
-                {"find": "\\bplanks\\b", "replace": ""},
-                {"find": "tintIndex=stone", "replace": "tintIndex=0"}
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/41sand/sand.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "matchBlocks=", "replace": "matchBlocks=coarse_dirt crimson_nylium dirt grass_block grass_block_side gravel moss_block mud muddy_mangrove_roots mycelium mycelium_side pale_moss_block podzol podzol_side red_concrete_powder red_sand rooted_dirt snow warped_nylium "}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/42red_sand/red_sand.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "matchBlocks=", "replace": "matchBlocks=coarse_dirt crimson_nylium dirt grass_block grass_block_side gravel moss_block mud muddy_mangrove_roots mycelium mycelium_side pale_moss_block podzol podzol_side red_concrete_powder rooted_dirt sand snow warped_nylium "}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/43dirt/dirt.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/44red_concrete_powder/red_concrete_powder.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/60coarse_dirt/coarse_dirt.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/61rooted_dirt/rooted_dirt.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/62mud/mud.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/63muddy_mangrove_roots/muddy_mangrove_roots.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/64moss_block/moss_block.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/65pale_moss_block/pale_moss_block.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/66podzol/podzol.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/67podzol_side/podzol.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/68mycelium/mycelium.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/69mycelium_side/mycelium.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/71gravel/gravel.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/72grass_block/grass_blockx.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/73grass_block_side/grass_block.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/74crimson_nylium/crimson_nylium.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/75warped_nylium/warped_nylium.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
+            ]
+        },
+        {
+            "source": "Overlays V88 MC26.2.zip",
+            "path": "assets/minecraft/optifine/ctm/_overlays/76snow/snow.properties",
+            "patch": [
+                {"find": "\\bcrafting_table\\b\\s?", "replace": ""},
+                {"find": "\\bfurnace\\b\\s?", "replace": ""},
+                {"find": "\\bsmoker\\b\\s?", "replace": ""},
+                {"find": "\\bblast_furnace\\b\\s?", "replace": ""},
+                {"find": "\\bcartography_table\\b\\s?", "replace": ""},
+                {"find": "\\bfletching_table\\b\\s?", "replace": ""},
+                {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
+                {"find": "\\bloom\\b\\s?", "replace": ""},
+                {"find": "\\bsand\\b\\s?", "replace": ""},
+                {"find": "\\bred_sand\\b\\s?", "replace": ""}
             ]
         }
     ],

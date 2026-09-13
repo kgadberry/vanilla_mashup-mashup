@@ -610,25 +610,6 @@
       "sha512": "6f2c5d473c6c2bb4d46a6eda3359693d47096b126e066e90c591826b7a2ad5f1da8c17dd98da6b8b77242a4e952901bc70acb27388cd5522010fc3d8add25458",
       "slug": "unique-goat-horns"
     },
-    "Vanilla Mashup 1.5.zip": {
-      "project": "leIFWh7a",
-      "version_id": "FcJYtU19",
-      "version_number": "1.5",
-      "game_versions": [
-        "1.21.8",
-        "1.21.9",
-        "1.21.10",
-        "1.21.11",
-        "26.1",
-        "26.1.1",
-        "26.1.2"
-      ],
-      "modrinth_filename": "Vanilla Mashup 1.5.zip",
-      "url": "https://cdn.modrinth.com/data/leIFWh7a/versions/FcJYtU19/Vanilla%20Mashup%201.5.zip",
-      "sha1": "716d144e3b7c2d3d1ccd629b43d2786b2ab305af",
-      "sha512": "3d1fe79d630fa8b7505601c60efc997e863d2864b5e986c63ee5fa279eba622fc8e296f7b594d946cbe133392c95f8c7ed4ba74216c6c6a3b3701ef9ef036b80",
-      "slug": "vanilla-mashup-pbr"
-    },
     "ZZZ Fissure Sounds.zip": {
       "project": "798uQ0vE",
       "version_id": "YEzW8Ju7",
