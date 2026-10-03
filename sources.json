@@ -37,7 +37,17 @@
         "Grass Clovers.zip": ["assets/minecraft"],
         "Better-Leaves-9.5.zip": ["*", "!LICENSE", "!pack.mcmeta", "!pack.png", "!README.md"],
         "Bushy pink petals, wildflowers  leaf litter.zip": ["assets/minecraft"],
-        "Sky's Better Carpets.zip": ["assets/minecraft/models/block", "!assets/minecraft/models/block/carpet.json"],
+        "Sky's Better Carpets.zip": [
+            "assets/minecraft/models/block",
+            "!assets/minecraft/models/block/carpet.json",
+            "!assets/minecraft/models/block/snow_height2.json",
+            "!assets/minecraft/models/block/snow_height4.json",
+            "!assets/minecraft/models/block/snow_height6.json",
+            "!assets/minecraft/models/block/snow_height8.json",
+            "!assets/minecraft/models/block/snow_height10.json",
+            "!assets/minecraft/models/block/snow_height12.json",
+            "!assets/minecraft/models/block/snow_height14.json"
+        ],
         "Fluffy Carpets v1.1.zip": ["assets/minecraft/models/block", "assets/fluffy_carpets"],
         "cubic-sun-moon-v1.8.5.zip": ["assets/minecraft"],
         "Blockier Goat Horn v1.2.zip": ["assets/minecraft"],
