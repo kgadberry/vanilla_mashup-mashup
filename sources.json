@@ -1,6 +1,36 @@
 {
     "sources": {
-        "SPBR-21.zip": ["assets"],
+        "SPBR-21.zip": [
+            "assets",
+            "!assets/minecraft/blockstates/brown_mushroom.json",
+            "!assets/minecraft/blockstates/red_mushroom.json",
+            "!assets/minecraft/blockstates/potted_brown_mushroom.json",
+            "!assets/minecraft/blockstates/potted_red_mushroom.json",
+            "!assets/minecraft/models/block/brown_mushroom_0.json",
+            "!assets/minecraft/models/block/brown_mushroom_1.json",
+            "!assets/minecraft/models/block/brown_mushroom_2.json",
+            "!assets/minecraft/models/block/red_mushroom_0.json",
+            "!assets/minecraft/models/block/red_mushroom_1.json",
+            "!assets/minecraft/models/block/red_mushroom_2.json",
+            "!assets/minecraft/models/block/potted_brown_mushroom_0.json",
+            "!assets/minecraft/models/block/potted_brown_mushroom_1.json",
+            "!assets/minecraft/models/block/potted_brown_mushroom_2.json",
+            "!assets/minecraft/models/block/potted_red_mushroom_0.json",
+            "!assets/minecraft/models/block/potted_red_mushroom_1.json",
+            "!assets/minecraft/models/block/potted_red_mushroom_2.json",
+            "!assets/minecraft/textures/block/brown_mushroom.png",
+            "!assets/minecraft/textures/block/brown_mushroom_n.png",
+            "!assets/minecraft/textures/block/brown_mushroom_s.png",
+            "!assets/minecraft/textures/block/brown_mushroom_bottom.png",
+            "!assets/minecraft/textures/block/brown_mushroom_bottom_n.png",
+            "!assets/minecraft/textures/block/brown_mushroom_bottom_s.png",
+            "!assets/minecraft/textures/block/red_mushroom.png",
+            "!assets/minecraft/textures/block/red_mushroom_n.png",
+            "!assets/minecraft/textures/block/red_mushroom_s.png",
+            "!assets/minecraft/textures/block/red_mushroom_bottom.png",
+            "!assets/minecraft/textures/block/red_mushroom_bottom_n.png",
+            "!assets/minecraft/textures/block/red_mushroom_bottom_s.png"
+        ],
         "SPBR-GlowingOre.zip": ["assets/minecraft/textures/block"],
         "SPBR-GrassParallax.zip": ["assets/minecraft/textures/block"],
         "Florescent.zip": ["assets/minecraft"],
@@ -206,7 +236,7 @@
                 {"find": "\\bfletching_table\\b\\s?", "replace": ""},
                 {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
                 {"find": "\\bloom\\b\\s?", "replace": ""},
-                {"find": "matchBlocks=", "replace": "matchBlocks=coarse_dirt crimson_nylium dirt grass_block grass_block_side gravel moss_block mud muddy_mangrove_roots mycelium mycelium_side pale_moss_block podzol podzol_side red_concrete_powder red_sand rooted_dirt snow warped_nylium "}
+                {"find": "matchBlocks=", "replace": "matchBlocks=coarse_dirt crimson_nylium dirt grass_block grass_block_side gravel moss_block mud muddy_mangrove_roots mycelium mycelium_side pale_moss_block podzol podzol_side red_concrete_powder rooted_dirt snow warped_nylium "}
             ]
         },
         {
@@ -222,7 +252,7 @@
                 {"find": "\\bsmithing_table\\b\\s?", "replace": ""},
                 {"find": "\\bloom\\b\\s?", "replace": ""},
                 {"find": "\\bsand\\b\\s?", "replace": ""},
-                {"find": "matchBlocks=", "replace": "matchBlocks=coarse_dirt crimson_nylium dirt grass_block grass_block_side gravel moss_block mud muddy_mangrove_roots mycelium mycelium_side pale_moss_block podzol podzol_side red_concrete_powder rooted_dirt sand snow warped_nylium "}
+                {"find": "matchBlocks=", "replace": "matchBlocks=coarse_dirt crimson_nylium dirt grass_block grass_block_side gravel moss_block mud muddy_mangrove_roots mycelium mycelium_side pale_moss_block podzol podzol_side red_concrete_powder rooted_dirt snow warped_nylium "}
             ]
         },
         {
